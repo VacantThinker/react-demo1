@@ -1,4 +1,5 @@
 {
+  "homepage": "https://vacantthinker.github.io/react-demo1/",
   "name": "react-demo1",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +18,7 @@
   "scripts": {
     "yarnU": "yarn install",
     "git-push": "git add . && git commit -m 'update' && git push",
-    "gh-page-deploy": "gh-pages -d build",
+    "gh-page-deploy": "npm run build && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
