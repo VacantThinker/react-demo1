@@ -11,7 +11,13 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
+  "devDependencies": {
+    "gh-pages": "latest"
+  },
   "scripts": {
+    "yarnU": "yarn install",
+    "git-push": "git add . && git commit -m 'update' && git push",
+    "gh-page-deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
